@@ -2,9 +2,21 @@
 <html>
 <head>
     <title>Text to Speech</title>
+    <link rel="icon" type="image/png" href="https://escalarcomunicacao.com.br/wp-content/webp-express/webp-images/uploads/2020/11/escalar-branco-logo-e1722957001888.png.webp">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f0f0 0%, #888 50%, #e53935 100%);
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Text to Speech Laravel</h1>
+    <h1>
+        Text to Speech -
+        <span style="color:red;">ESCALAR</span>
+        <img src="https://escalarcomunicacao.com.br/wp-content/webp-express/webp-images/uploads/2020/11/escalar-branco-logo-e1722957001888.png.webp" alt="Logo Escalar" style="height:40px; vertical-align:middle;">
+    </h1>
 
     <form action="/speak" method="POST">
         @csrf
